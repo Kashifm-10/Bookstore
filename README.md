@@ -15,15 +15,21 @@ Submitting the form saves the new book to the database.
 
 Project Structure
 bookstore-app/
+
 ├── src/main/java/com/bookstore/
 │   └── BookstoreApplication.java
+
 ├── src/main/java/com/bookstore/model/
 │   └── Book.java
+
 ├── src/main/java/com/bookstore/repository/
 │   └── BookRepository.java
+
 ├── src/main/java/com/bookstore/controller/
 │   └── BookController.java
+
 ├── src/main/resources/templates/
 │   └── addBook.html
+
 ├── src/main/resources/application.properties
 ├── pom.xml
